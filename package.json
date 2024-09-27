@@ -1,0 +1,25 @@
+{
+  "name": "code-challenge-sp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devjaes/code-challenge-sp.git"
+  },
+  "author": "Jair Mera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devjaes/code-challenge-sp/issues"
+  },
+  "homepage": "https://github.com/devjaes/code-challenge-sp#readme",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
