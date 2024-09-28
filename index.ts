@@ -1,5 +1,6 @@
 import { SeniropNumberSequence } from "./src/senirop-number-sequence/senirop-number-sequence";
 import { NearPalindromeDiv1 } from "./src/near-palindrome/near-palindrome";
+import { BicycleLock } from "./src/bicycle-lock/bicycle-lock";
 
 const printExercise = (exerciseName: string, exerciseMethod: () => void) => {
   console.log(`---------------------${exerciseName}----------------------`);
@@ -26,3 +27,10 @@ const testNearPalindrome = () => {
 };
 
 printExercise("Near Palindrome Div1", testNearPalindrome);
+
+const testBicycleLock = () => {
+  const bicycleLock = new BicycleLock();
+  console.log(bicycleLock.getScrambleActions([3, 1, 5, 3, 2, 5, 3, 4]));
+};
+
+printExercise("BicycleLock", testBicycleLock);
