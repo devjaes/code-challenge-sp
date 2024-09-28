@@ -7,7 +7,7 @@ Solutions proposed to the exercises challenge
 - Node js >= 20
 - npm
 
-## Instrucctions
+## Instructions
 
 1. Clone this repository
 
